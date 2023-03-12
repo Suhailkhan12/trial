@@ -4,19 +4,9 @@ import csv
 app = Flask(__name__)
 
 
-
-
-# @app.route('/about.html')
-# def about():
-#     return render_template("about.html")
-
-# @app.route('/works.html')
-# def works():
-#     return render_template("works.html")
-
 @app.route('/')
 def contact():
-    return render_template("contact.html")
+    return render_template("demo.html")
 
 
 def write_to_csv(data):
